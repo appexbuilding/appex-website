@@ -3,10 +3,6 @@
 
   &__logo {
     width: 200px;
-    margin: 40px auto 0;
-
-    @media (max-width: $breakpoint-small) {
-      margin-top: 200px;
-    }
+    margin: 0 auto;
   }
 }
