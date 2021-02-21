@@ -1,0 +1,15 @@
+@mixin hook-card-misc() {
+    .uk-card-box-shadow {
+        background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #FFFFFF;
+        box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08), 0px 6px 16px rgba(0, 0, 0, 0.12);
+        border-radius: 4px;
+    }
+    
+    .uk-card-no-box-shadow {
+        box-shadow: none;
+    }
+
+    .uk-card-white {
+        background: $global-white;
+    }
+}

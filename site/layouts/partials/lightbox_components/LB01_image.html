@@ -1,0 +1,4 @@
+<a data-id="LB01" {{ if le $.index 0 }} class="uk-button uk-button-primary" {{ end }} href="{{ .lb01_image}}" {{ if .lb01_caption }}data-caption="{{ .lb01_caption}}"{{ end }}>
+    {{ if le $.components 0}} {{ $.lightbox_button_text}} {{ end }}
+</a>
+

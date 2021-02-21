@@ -1,0 +1,17 @@
+.global-padding-tb {
+  @include componentSpacingCompile();
+}
+
+.global-padding-tb-small {
+  @include componentSpacingCompile($small: true);
+}
+
+.uk-padding-remove-bottom {
+  padding-bottom: 0;
+}
+
+@media (max-width: $breakpoint-small) {
+  .global-margin-remove-left\@s {
+    margin-left: 0;
+  }
+}

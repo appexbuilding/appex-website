@@ -1,0 +1,20 @@
+<div data-id="C24" class="uk-section C24-lightbox">
+    <div class="uk-text-left uk-text-center@m uk-container">
+        <h3>{{ .Module.lightbox_section_title }}</h3>
+        <p class="uk-text-lead">{{ .Module.lightbox_section_content }}</p>
+        <div id="{{ .Module.lightbox_id}}" uk-lightbox="animation: {{ .Module.lightbox_animation}}">
+            {{ range $index, $components := .Module.lightbox_content }}
+                {{ if .lb01_image}}
+                    {{ partial "lightbox_components/LB01_image.html"  .}}
+                {{ else if .lb02_video }}
+                    {{ partial "lightbox_components/LB02_video.html" .}}
+                {{ else if .lb03_youtube_id }}
+                    {{ partial "lightbox_components/LB03_youtube.html" .}}
+                {{ else if .lb04_vimeo_id }}
+                    {{ partial "lightbox_components/LB04_vimeo.html" .}}
+                 {{else}}
+                {{ end }}
+            {{ end}}
+        </div>
+    </div>
+</div>

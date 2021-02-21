@@ -1,0 +1,45 @@
+@mixin hook-text-lead() {
+    font-family: Futura;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 28px;
+    line-height: 140%;
+  
+    @media (max-width: $breakpoint-medium) {
+      font-size: 24px;
+    }
+  
+    @media (max-width: $breakpoint-small) {
+      font-size: 20px;
+    }
+}
+
+@mixin hook-text-small() {
+  font-family: Futura;
+  font-style: normal;
+  font-weight: 200;
+  font-size: 16px;
+  line-height: 140%;
+  color: $global-black;
+
+  @media (max-width: $breakpoint-medium) {
+    font-size: 16px;
+  }
+
+  @media (max-width: $breakpoint-small) {
+    font-size: 15px;
+  }
+}
+
+@mixin hook-text-misc() {
+    .social-icons {
+        .uk-icon-button {
+          color: $brand-secondary;
+        }
+    }
+    
+    .uk-published {
+        font-size: 16px;
+        line-height: 140%;
+    }
+}

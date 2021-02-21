@@ -1,0 +1,23 @@
+<div data-id="C21" class="uk-container uk-section uk-container-xsmall C21-off-canvas-info">
+    <div class="uk-container global-padding-tb-small">
+        <div class="uk-text-left uk-text-center@m">
+            <h3>{{ .Module.off_canvas_section_title }}</h3>
+            <p class="uk-text-lead">{{ .Module.off_canvas_section_content }}</p>
+            <button class="uk-button uk-button-primary uk-margin-small-right" type="button" uk-toggle="target: #{{ .Module.off_canvas_content.off_canvas_id}}">{{ .Module.off_canvas_button_text}}</button>
+        </div>
+
+    <div></div>
+
+        <div id="{{ .Module.off_canvas_content.off_canvas_id }}" uk-offcanvas="flip: {{ .Module.off_canvas_flip}}">
+            <div class="uk-offcanvas-bar">
+                <button class="uk-offcanvas-close" type="button" uk-close></button>
+                {{ if .Module.off_canvas_content.off_canvas_bar_title}}
+                <h2>{{ .Module.off_canvas_content.off_canvas_bar_title}}</h2>
+                {{ end }}
+                <div class="uk-text-left">
+                    {{ .Module.off_canvas_content.off_canvas_bar_content | markdownify}}
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

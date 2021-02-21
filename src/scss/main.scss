@@ -1,0 +1,54 @@
+// 1. Project specific settings & tools
+@import 'settings/settings.colors';
+@import 'settings/settings.type';
+@import 'settings/settings.global';
+
+@import 'tools/tools.mixins';
+
+// 2. Your custom variables and variable overwrites.
+@import 'theme/uikit.variables';
+
+@import 'theme/padding/padding.variables';
+@import 'theme/button/button.variables';
+@import 'theme/accordion/accordion.variables';
+@import 'theme/modal/modal.variables';
+@import 'theme/cards/cards.variables';
+@import 'theme/tab/tab.variables';
+@import 'theme/slidenav/slidenav.variables';
+@import 'theme/dotnav/dotnav.variables';
+@import 'theme/form/form.variables';
+
+// 3. Import default variables and available mixins.
+@import '~uikit/src/scss/variables-theme.scss';
+@import '~uikit/src/scss/mixins-theme.scss';
+
+// 4. Your custom mixin overwrites.
+@import 'theme/margin/margin.mixin';
+@import 'theme/cards/cards.mixin';
+@import 'theme/button/button.mixin';
+@import 'theme/accordion/accordion.mixin';
+@import 'theme/form/form.mixin';
+@import 'theme/text/text.mixin';
+@import 'theme/tab/tab.mixin';
+@import 'theme/slidenav/slidenav.mixin';
+
+// 5. Global
+@import 'global/index';
+
+// 6. Import UIkit.
+@import '~uikit/src/scss/uikit-theme.scss';
+
+// 7. Elements
+@import 'elements/index';
+
+// 8. Modules
+@import '../../site/layouts/partials/modules/**/*.scss';
+
+// 9. Components
+@import 'components/index';
+
+// 10. Utilities
+@import 'utilities/index';
+
+// 11. Custom
+@import 'theme/appex';

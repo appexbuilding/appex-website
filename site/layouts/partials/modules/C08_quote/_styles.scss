@@ -1,0 +1,17 @@
+$C08-author-font-size: 17px;
+.C08-quote {
+  // component controllers
+  @include componentSpacingCompile($paddingTop: false);
+
+  // custom styling below (white-label applied)
+  &__info {
+    padding: 20px 0;
+  }
+
+  &__author {
+    font-style: normal;
+    font-weight: 500;
+    font-size: $C08-author-font-size;
+    line-height: 140%;
+  }
+}

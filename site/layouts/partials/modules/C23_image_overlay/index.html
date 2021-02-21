@@ -1,0 +1,15 @@
+<div data-id="C23" id="{{ .Module.image_overlay_id}}" class="uk-section uk-section-muted C23-image-overlay">
+    <div class="uk-container uk-margin uk-child-width-auto-1-1@l">
+        <div class="uk-inline uk-child-width-1-1@l">
+            <img data-src="{{ .Module.image_to_display }}" alt="{{ .Module.image_alt }}" uk-img data-height="" data-width="" >
+            {{ if eq .Module.image_cover true}}
+            <div class="{{ if eq .Module.overlay_background "light" }}uk-overlay-default{{else}}uk-overlay-primary{{ end }}
+            uk-overlay-default uk-position-cover"></div>
+            {{ end }}
+            <div class="uk-overlay {{ if eq .Module.overlay_background "light" }}uk-overlay-default{{else}}uk-overlay-primary{{ end }}
+            uk-position-{{ .Module.overlay_position }} {{if eq .Module.image_primary_tone "light" }}uk-dark{{ else }}uk-light{{ end }} ">
+            <p>{{ .Module.overlay_text}}</p>
+            </div>
+        </div>
+    </div>
+</div>
