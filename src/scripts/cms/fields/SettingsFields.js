@@ -113,16 +113,16 @@ export default [
         allow_add: false,
         fields: [
           {
-            label: "Title", name: "resources_title", widget: "string", required: true,
+            label: "Title", name: "projects_title", widget: "string", required: true,
           },
           {
-            label: "Banner Title", name: "resources_banner_title", widget: "string", required: false,
+            label: "Banner Title", name: "projects_banner_title", widget: "string", required: false,
           },
           {
             label: "Banner Description", name: "resources_banner_description", widget: "string", required: false,
           },
           {
-            label: "Banner Background Image", name: "resources_banner_image", widget: "image", required: false,
+            label: "Banner Background Image", name: "projects_banner_image", widget: "image", required: false,
           },
         ],
       },

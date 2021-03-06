@@ -1,7 +1,7 @@
 {{ define "main" }}
   {{ with .Site.GetPage "/settings/settings.md" }}
-    {{range $key,$val := .Params.resources}}
-      {{ partial "jumbotron" (dict "imageUrl" .resources_banner_image "banner_title" .resources_banner_title) }}
+    {{range $key,$val := .Params.projects}}
+      {{ partial "jumbotron" (dict "imageUrl" .projects_banner_image "banner_title" .projects_banner_title) }}
     {{ end }}
 
     {{/* Get number of all categories */}}
