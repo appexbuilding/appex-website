@@ -2,6 +2,9 @@
 title: Projects
 meta_keywords: APPEX Builders, Canberra Builders, Master Builders.
 meta_description: This is a detailed description of the page.
+banner_title: Projects
+banner_description: This is our current and past projects, all built through Appex Building.
+banner_image: img/canberra.jpg
 modules:
   - type: C12_pillar_content_cards
     intro_title: This is your title
