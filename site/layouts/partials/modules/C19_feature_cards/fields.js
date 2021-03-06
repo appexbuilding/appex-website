@@ -1,5 +1,5 @@
 export default {
-  label: "C19: Feature Cards",
+  label: "Projects",
   name: "C19_feature_cards",
   widget: "list",
   fields: [

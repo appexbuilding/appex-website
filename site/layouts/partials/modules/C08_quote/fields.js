@@ -1,5 +1,5 @@
 export default {
-  label: "C08: Quote",
+  label: "Quote",
   name: "C08_quote",
   widget: "object",
   fields: [

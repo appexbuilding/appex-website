@@ -6,15 +6,17 @@
         </div>
         {{ $feat_cards_count := len .Module.feat_card }}
         <div class="uk-grid-match uk-child-width-expand@s global-margin-remove-left@s" uk-grid>
-        {{ range $index, $element := .Module.feat_card }}
+            {{ range $index, $element := .Module.feat_card }}
             <div class="uk-padding-small">
-                <div class="uk-card uk-card-white uk-card-box-shadow">
+                <div class="uk-card uk-card-white uk-card-hover uk-card-box-shadow">
                     <div class="uk-card-media-top">
-                        {{if $element.feat_card_image}}
+                        <a href="{{ $element.feat_card_link }}">
+                            {{if $element.feat_card_image}}
                             <img src="{{ $element.feat_card_image }}" alt="image for {{ $element.feat_card_description }}">
-                        {{else}}
+                            {{else}}
                             <img src="/img/placeholder-noimage.gif" alt="image for {{ $element.feat_card_description }}" />
-                        {{end}}
+                            {{end}}
+                        </a>
                     </div>
                     <div class="uk-card-body uk-icon-adjust">
                         <p>{{ $element.feat_card_description }}</p>
@@ -24,7 +26,7 @@
                     </div>
                 </div>
             </div>
-        {{ end }}
+            {{ end }}
         </div>
     </div>
 </div>

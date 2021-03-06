@@ -1,5 +1,5 @@
 export default {
-  label: "C04 Image",
+  label: "Image",
   name: "C04_image",
   widget: "object",
   fields: [

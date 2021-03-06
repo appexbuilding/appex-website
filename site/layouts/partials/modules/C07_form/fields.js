@@ -1,5 +1,5 @@
 export default {
-  label: "C07: Form",
+  label: "Form",
   name: "C07_form",
   widget: "object",
   fields: [

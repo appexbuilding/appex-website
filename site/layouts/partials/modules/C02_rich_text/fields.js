@@ -1,5 +1,5 @@
 export default {
-  label: "C02 Rich Text",
+  label: "Rich Text",
   name: "C02_rich_text",
   widget: "object",
   fields: [{
