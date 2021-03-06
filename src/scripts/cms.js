@@ -1,14 +1,16 @@
-window.CMS_MANUAL_INIT = true;
-
 import React from "react";
-import CMS, { init } from "netlify-cms-app";
+import CMS, {init} from "netlify-cms-app";
 import cloudinary from "netlify-cms-media-library-cloudinary";
 
-import { ModuleFields, SEOFields, SettingsFields, BannerFields, ArticleFields } from "./cms/";
+import {
+  ModuleFields, SEOFields, SettingsFields, BannerFields, ArticleFields,
+} from "./cms/";
 
 // Import main site styles as a string to inject into the CMS preview pane
-// eslint-disable-next-line import/no-unresolved
+// eslint-disable-next-line import/no-unresolved,import/no-webpack-loader-syntax
 import styles from "!to-string-loader!css-loader!postcss-loader!sass-loader!webpack-import-glob-loader!../scss/main.scss";
+
+window.CMS_MANUAL_INIT = true;
 
 init({
   config: {
@@ -29,7 +31,9 @@ init({
           preview: false,
         },
         slug: "{{fields.title}}",
-        fields: [{ label: "Title", name: "title", widget: "string", required: true }, ...SEOFields, ...BannerFields, ...ModuleFields],
+        fields: [{
+          label: "Title", name: "title", widget: "string", required: true,
+        }, ...SEOFields, ...BannerFields, ...ModuleFields],
       },
       {
         name: "settings",
@@ -46,4 +50,4 @@ init({
 });
 
 CMS.registerMediaLibrary(cloudinary);
-CMS.registerPreviewStyle(styles, { raw: true });
+CMS.registerPreviewStyle(styles, {raw: true});

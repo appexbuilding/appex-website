@@ -4,7 +4,7 @@ export default [
     name: "meta_keywords",
     widget: "string",
     required: true,
-    default: "Mental Awareness, CMHAA, Keyword, Keyword.",
+    default: "APPEX Builders, Canberra Builders, Master Builders.",
   },
   {
     label: "Metadata Description",
