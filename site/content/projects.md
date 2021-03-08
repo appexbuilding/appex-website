@@ -5,6 +5,9 @@ meta_description: This is a detailed description of the page.
 banner_title: Projects
 banner_description: This is our current and past projects, all built through Appex Building.
 banner_image: img/canberra.jpg
+date: 2021-03-08T02:42:37.606Z
+description: This is our intro blurb
+image: img/canberra.jpg
 modules:
   - type: C12_pillar_content_cards
     intro_title: This is your title
@@ -18,3 +21,4 @@ modules:
         content_card_link: /weston
         content_card_cta: view more
 ---
+This is our body text
