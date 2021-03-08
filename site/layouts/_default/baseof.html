@@ -4,17 +4,7 @@
 
 <body class="sans-serif {{ if .IsHome }}{{else}}{{if .Params.imageUrl}}{{else}}uk-navbar-white{{end}}{{end}}">
 
-
-{{ block "head" . }}
-<header data-id="G01" class="G01-header-main">
-  <div class="uk-container">
-    {{ partial "N01-main-menu" . }}
-  </div>
-</header>
-{{end}}
 {{ block "main" . }}{{ end }}
-
-{{ block "footer" . }}{{ partial "footer" . }}{{end}}
 
 {{/* This will expose `window.UIKit` */}}
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.6.15/dist/js/uikit.min.js"></script>
