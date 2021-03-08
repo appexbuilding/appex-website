@@ -1,5 +1,5 @@
 baseurl = "/"
-languageCode = "en-us"
+languageCode = "en-au"
 languageLang = "en"
 title = "Appex Building"
 
@@ -55,17 +55,22 @@ url = "/about-us/"
 weight = 1
 
 [[menu.main]]
-identifier = "contact-us"
-name = "Contact Us"
-url = "/contact-us/"
+identifier = "projects"
+name = "Projects"
+url = "/projects/"
 weight = 2
 
-# Taxonomy Relationships
-[outputFormats.TaxRelationships]
-baseName = "taxrelationships"
-isPlainText = true
-mediaType = "application/json"
-notAlternative = true
+[[menu.main]]
+identifier = "testimonials"
+name = "Testimonials"
+url = "/testimonials/"
+weight = 3
+
+[[menu.main]]
+identifier = "contact"
+name = "Contact"
+url = "/contact/"
+weight = 4
 
 [params.taxrelationships]
 vars = ["title", "category"]

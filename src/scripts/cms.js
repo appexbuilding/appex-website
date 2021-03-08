@@ -33,7 +33,7 @@ init({
         slug: "{{fields.title}}",
         fields: [{
           label: "Title", name: "title", widget: "string", required: true,
-        }, ...SEOFields, ...BannerFields, ...ArticleFields, ...ModuleFields],
+        }, ...SEOFields, ...BannerFields, ...ModuleFields],
       },
       {
         name: "projects",
@@ -46,7 +46,7 @@ init({
         slug: "{{fields.title}}",
         fields: [{
           label: "Title", name: "title", widget: "string", required: true,
-        }, ...SEOFields, ...BannerFields, ...ModuleFields],
+        }, ...SEOFields, ...BannerFields, ...ArticleFields, ...ModuleFields],
       },
       {
         name: "settings",
