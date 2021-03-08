@@ -1,7 +1,8 @@
-.C09-split-title-image-content {
+.C09-split-title-content {
   // component controllers
   @include componentSpacingCompile();
   @include unorderList();
+  @include svgLine();
 
   // custom styling below
 }

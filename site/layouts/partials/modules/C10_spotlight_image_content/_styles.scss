@@ -1,6 +1,7 @@
 .C10-spotlight-image-content {
   // component controllers
   @include componentSpacingCompile();
+  @include svgLine();
 
   // custom styling below (white-label applied)
   @media (max-width: $breakpoint-small) {

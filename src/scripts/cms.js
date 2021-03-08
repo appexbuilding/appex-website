@@ -33,6 +33,19 @@ init({
         slug: "{{fields.title}}",
         fields: [{
           label: "Title", name: "title", widget: "string", required: true,
+        }, ...SEOFields, ...BannerFields, ...ArticleFields, ...ModuleFields],
+      },
+      {
+        name: "projects",
+        label: "Projects",
+        folder: "site/content/projects",
+        create: true,
+        editor: {
+          preview: false,
+        },
+        slug: "{{fields.title}}",
+        fields: [{
+          label: "Title", name: "title", widget: "string", required: true,
         }, ...SEOFields, ...BannerFields, ...ModuleFields],
       },
       {

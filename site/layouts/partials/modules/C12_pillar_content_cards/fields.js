@@ -22,15 +22,15 @@ export default {
       allow_add: true,
       fields: [
         {
-          label: "Card Image",
-          name: "content_card_image",
-          widget: "image",
-          required: true,
-        },
-        {
           label: "Card Title",
           name: "content_card_title",
           widget: "string",
+          required: true,
+        },
+        {
+          label: "Card Image",
+          name: "content_card_image",
+          widget: "image",
           required: true,
         },
         {
