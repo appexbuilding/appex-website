@@ -47,18 +47,6 @@ modules:
         text_area_placeholder: How can we help you?
         text_area_error_message: Please enter how we can help you
         text_area_max_char: 1000
-      - type: FC05_select
-        select_id: heard-of-us
-        select_label: We would love to know how you heard about Appex?
-        select_error_message: How did you hear about appex?
-        select_options:
-          - option_id: google
-            option_text: Google
-          - option_id: word
-            option_text: Word of mouth
-          - option_id: other
-            option_text: Other
-        select_required: true
   - type: C02_rich_text
     line_break: true
     rich_text_content: |-
