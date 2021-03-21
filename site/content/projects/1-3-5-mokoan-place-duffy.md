@@ -20,6 +20,8 @@ modules:
       - gallery_image: img/unit1-siteplan-duffy.png
       - gallery_image: img/unit2-siteplan-duffy.png.png
       - gallery_image: img/unit3-siteplan-duffy.png
+  - type: C20_feature_link
+    feature_link: https://www.petermorrell.com.au/property/1-3-5-mokoan-place-duffy
 ---
 Each of these delightful free-standing, single-level townhomes brings elegance and easy living to sought-after Duffy, which offers all of the amenities an established suburb provides.
 
