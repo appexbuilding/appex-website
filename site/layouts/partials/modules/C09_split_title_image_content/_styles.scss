@@ -5,4 +5,20 @@
   @include svgLine();
 
   // custom styling below
+  .projects-main {
+    @media (max-width: $breakpoint-small) {
+      margin-top: 0;
+    }
+  }
+
+  .uk-published {
+    padding: 5px;
+
+    &.project {
+      background-color: $brand-primary;
+      color: $global-white;
+      padding: 5px;
+      font-weight: bold;
+    }
+  }
 }
