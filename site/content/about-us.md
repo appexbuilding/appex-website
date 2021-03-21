@@ -24,5 +24,7 @@ modules:
           designing there dream home while keeping the cost at budget.
       - title: Where are you located?
         content: Our office is located in Forde, next door to Frankies.
+      - title: Do you service the greater Canberra region
+        content: Yes
     accordion_title: Frequently Asked Questions
 ---
