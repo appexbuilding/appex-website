@@ -1,0 +1,7 @@
+<div class="C20-feature-link uk-container uk-container-xsmall uk-margin-large-bottom">
+    {{- $url := .Module.resource | urlize }}
+    {{- $page := print "/" $url -}}
+    {{ with .Site.GetPage $page }}
+    <p>test</p>
+    {{ end }}
+</div>
