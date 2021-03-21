@@ -1,5 +1,6 @@
 <div class="uk-padding-small" >
 	<a href="{{ .RelPermalink }}" class="uk-card uk-card-white uk-card-hover uk-card-box-shadow">
+		<div class="uk-card-badge uk-label">{{ $.Params.project_type }}</div>
 		<div class="uk-card-media-top">
 			{{if $.Params.Image }}
 			<img src="{{ $.Params.Image }}" alt="image for {{ .Title }}">
