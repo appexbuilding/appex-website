@@ -8,6 +8,7 @@ banner_right_image: img/weston-kitchen.jpg
 date: 2021-03-08T05:21:43.408Z
 description: This is your intro blurb. Describe at high level what this project
   is about here.
+project_type: Renovation
 image: img/weston-kitchen.jpg
 modules:
   - type: C17_image_gallery
