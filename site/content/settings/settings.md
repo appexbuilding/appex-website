@@ -3,7 +3,8 @@ title: Global Settings
 footer:
   - footer_text: Appex Building Group
     footer_disclaimer_text: ABN 61 647 793 155 | Appex Building Group Pty Ltd
-    footer_global_link: []
+    footer_global_link:
+      - footer_global_link_text: "Phone: 1300 4 APPEX"
     footer_social_link:
       - footer_social_link_platform: facebook
         footer_social_link_url: http://facebook.com/appexbuilding
