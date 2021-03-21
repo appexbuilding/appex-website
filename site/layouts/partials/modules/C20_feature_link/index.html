@@ -1,7 +1,11 @@
 <div class="C20-feature-link uk-container uk-container-xsmall uk-margin-large-bottom">
-    {{- $url := .Module.resource | urlize }}
-    {{- $page := print "/" $url -}}
-    {{ with .Site.GetPage $page }}
-    <p>test</p>
-    {{ end }}
+    <a href="{{ .Module.feature_link }}" class="uk-card uk-card-white uk-card-hover uk-card-box-shadow uk-flex-middle uk-link-toggle" uk-grid>
+        <div class="uk-width-auto">
+            <span class="uk-text-primary" uk-icon="icon: chevron-right; ratio: 2"></span>
+        </div>
+        <div class="uk-card-body uk-width-expand">
+            <h4 class="C20-pdf__subheading uk-link-heading">{{ .Module.feature_link_title }}</h4>
+            {{if .Module.feature_link_description }}<p>{{ .Module.feature_link_description }}</p> {{ end }}
+        </div>
+    </a>
 </div>

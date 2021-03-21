@@ -5,7 +5,6 @@ import './scripts/app.core';
 
 import '../site/layouts/partials/modules/C01_accordion/index';
 import '../site/layouts/partials/modules/C05_show_hide';
-import '../site/layouts/partials/modules/C06_our_members';
 import '../site/layouts/partials/modules/C07_form';
 import '../site/layouts/partials/modules/C11_statistics/index';
 

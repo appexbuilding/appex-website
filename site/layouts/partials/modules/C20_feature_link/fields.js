@@ -9,5 +9,17 @@ export default {
       widget: "string",
       required: true,
     },
+    {
+      label: "Feature Title",
+      name: "feature_link_title",
+      widget: "string",
+      required: false,
+    },
+    {
+      label: "Feature Description",
+      name: "feature_link_description",
+      widget: "string",
+      required: false,
+    },
   ],
 };
