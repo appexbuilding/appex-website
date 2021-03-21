@@ -10,7 +10,7 @@ footer:
       - footer_social_link_url: http://www.instagram.com/appexbuilding
         footer_social_link_platform: instagram
     footer_pirvacy_link: []
-    footer_ga: GA-1234
+    footer_ga: G-YF988THVVW
     footer_text_tag: '"Building Your Future"'
 seo:
   - seo_og_image: img/banner-image.jpg
