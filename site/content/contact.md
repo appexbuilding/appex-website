@@ -65,6 +65,6 @@ modules:
       * **Website**: appexbuilding.com.au
       * **Email**: info@appexbuilding.com.au
       * **Social Media:** @appexbuilding for facebook and instagram
-      * **Phone:** 1300 APXBLD
+      * **Phone:** 1300 4 APPEX
     small_container: true
 ---
