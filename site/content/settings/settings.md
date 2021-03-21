@@ -5,8 +5,6 @@ footer:
     footer_disclaimer_text: ABN 61 647 793 155 | Appex Building Group Pty Ltd
     footer_global_link: []
     footer_social_link:
-      - footer_social_link_platform: linkedin
-        footer_social_link_url: http://linkedin.com/
       - footer_social_link_platform: facebook
         footer_social_link_url: http://facebook.com/appexbuilding
       - footer_social_link_url: http://www.instagram.com/appexbuilding
