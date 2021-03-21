@@ -7,6 +7,7 @@ banner_right_image: img/front-duffy.jpg
 date: 2021-03-20T05:35:06.878Z
 description: Each of these delightful free-standing, single-level townhomes
   brings elegance and easy living.
+project_type: Development
 image: img/front-duffy.jpg
 modules:
   - type: C17_image_gallery
