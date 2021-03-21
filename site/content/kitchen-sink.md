@@ -161,7 +161,7 @@ modules:
       lorem, ut imperdiet nulla semper tristique.
     content_card:
       - content_card_title: Testing Card
-        content_card_image: img/front.jpg
+        content_card_image: img/alfresco-duffy.jpg
         content_card_description: Card Test
         content_card_cta: BUTTON TEXT
         content_card_link: /
@@ -191,10 +191,9 @@ modules:
     callout_cta_text: Optional Text
   - type: C17_image_gallery
     gallery:
-      - gallery_image: img/bathroom.jpg
-      - gallery_image: img/bedroom.jpg
-      - gallery_image: img/deck.jpg
-      - gallery_image: img/dining.jpg
+      - gallery_image: img/kitchen-duffy.jpg
+      - gallery_image: img/kitchen-2-duffy.jpg
+      - gallery_image: img/entertain-duffy.jpg
   - type: C18_pdf_downloads
     pdf_downloads_heading: PDF Downloads
     pdf_downloads_list:
