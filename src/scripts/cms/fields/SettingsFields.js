@@ -15,15 +15,10 @@ export default [
         label: "Intro Tagline", name: "footer_text_tag", widget: "string", required: false,
       },
       {
-        label: "Footer GLobal Links",
-        name: "footer_global_link",
-        widget: "list",
-        allow_add: true,
-        fields: [
-          {label: "Footer Link Text", name: "footer_global_link_text", widget: "string"},
-          {label: "Footer Link URL", name: "footer_global_link_url", widget: "string"},
-          {label: "Footer Link URL Text", name: "footer_global_link_url_text", widget: "string"},
-        ],
+        label: "Footer Phone Number",
+        name: "footer_phone_number",
+        widget: "string",
+        required: false,
       },
       {
         label: "Footer Social Links",

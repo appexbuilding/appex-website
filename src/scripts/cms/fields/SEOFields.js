@@ -4,7 +4,7 @@ export default [
     name: "meta_keywords",
     widget: "string",
     required: true,
-    default: "APPEX Builders, Canberra Builders, Master Builders.",
+    default: "Appex Building Group, Canberra Builders.",
   },
   {
     label: "Metadata Description",

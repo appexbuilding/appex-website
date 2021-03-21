@@ -33,6 +33,13 @@
   &-left {
     position: relative;
 
+    &__phone {
+      background-color: $brand-primary !important;
+      padding: 5px 10px;
+      font-weight: bold;
+      font-size: 18px;
+    }
+
     .uk-icon-button {
       background-color: $global-primary-background;
       color: $global-white;
