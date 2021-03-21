@@ -13,6 +13,7 @@ footer:
     footer_pirvacy_link: []
     footer_ga: G-YF988THVVW
     footer_text_tag: '"Building Your Future"'
+    footer_phone_number: 1300 4 APPEX
 seo:
   - seo_og_image: img/banner-image.jpg
     seo_og_url: https://appexbuilding.com.au/
