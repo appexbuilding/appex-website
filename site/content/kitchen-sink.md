@@ -230,4 +230,8 @@ modules:
       - feat_card_image: https://via.placeholder.com/300x200
         feat_card_description: This is your description
     feat_card_title: Feature Cards
+  - type: C20_feature_link
+    feature_link: https://www.google.com.au/
+    feature_link_title: This is your feature
+    feature_link_description: This is your description
 ---
