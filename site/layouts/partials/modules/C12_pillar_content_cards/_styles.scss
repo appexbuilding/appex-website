@@ -1,0 +1,13 @@
+.C12-pillar-content-cards {
+  // component controllers
+  @include componentSpacingCompile();
+
+  // custom styling below
+  .uk-card {
+    border: 1px solid $grey-lighter;
+  }
+
+  &__link {
+    display: block;
+  }
+}

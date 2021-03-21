@@ -1,0 +1,12 @@
+.C07-form {
+  @include componentSpacingCompile();
+  @include svgLine();
+
+  h3 {
+    margin-bottom: 0;
+  }
+
+  .uk-form {
+    padding-top: 0;
+  }
+}

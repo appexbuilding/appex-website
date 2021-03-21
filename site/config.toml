@@ -1,0 +1,77 @@
+baseurl = "/"
+languageCode = "en-au"
+languageLang = "en"
+title = "Appex Building"
+
+# RSS, categories and tags disabled for an easy start
+# See configuration options for more details:
+# https://gohugo.io/getting-started/configuration/#toml-configuration
+#disableKinds = ["RSS", "taxonomy", "taxonomyTerm"]
+disableKinds = ["RSS"]
+
+# Settings in the [build] context are global and are applied to all contexts
+# unless otherwise overridden by more specific contexts.
+[build]
+# Deploy Preview context: all deploys generated from a pull/merge request will
+# inherit these settings.
+[context.deploy-preview]
+publish = "dist/"
+# Directory with the serverless Lambda functions to deploy to AWS.
+functions = "functions/"
+
+# Specific branch context: all deploys from this specific branch will inherit
+# these settings.
+[context.staging] # 'staging' is a branch name
+command = "yarn build"
+base = "staging"
+publish = "staging/"
+[context.staging.environment]
+NODE_ENV = "development"
+
+[related]
+threshold = 0
+includeNewer = true
+toLower = false
+
+[[related.indices]]
+name = "categories"
+weight = 100
+
+[[related.indices]]
+name = "date"
+weight = 10
+
+[outputs]
+home = ["HTML"]
+
+[permalinks]
+pages = "/:slug/"
+
+[menu]
+[[menu.main]]
+identifier = "home"
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+identifier = "about-us"
+name = "About us"
+url = "/about-us/"
+weight = 2
+
+[[menu.main]]
+identifier = "projects"
+name = "Projects"
+url = "/projects/"
+weight = 3
+
+[[menu.main]]
+identifier = "contact"
+name = "Contact"
+url = "/contact/"
+weight = 4
+
+[params.taxrelationships]
+vars = ["title", "category"]
+params = ["category"]

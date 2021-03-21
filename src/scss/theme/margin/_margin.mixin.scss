@@ -1,0 +1,6 @@
+@mixin hook-margin-misc() {
+    /* Tablet landscape and bigger */
+    @media (min-width: $breakpoint-medium) {
+        .uk-margin-remove-top\@m { margin-top: 0 !important; }
+    }
+}

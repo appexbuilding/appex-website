@@ -1,0 +1,34 @@
+.C01-accordion {
+  @include componentSpacingCompile($paddingTop: false);
+  @include svgLine();
+
+  .uk-accordion {
+    background-color: #f1f1f1;
+
+    &-content>:last-child {
+      margin-bottom: 20px;
+    }
+    >:nth-child(n+2) {
+      margin-top: 0;
+    }
+  }
+
+  & .uk-open {
+    & .uk-accordion-title {
+      background-color: $grey-lightest;
+    }
+  }
+
+  & .uk-accordion-title{
+    padding: 10px;
+  }
+
+  & .uk-accordion-content {
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #eae4e4;
+    padding-top: 20px;
+    margin-top: 0;
+  }
+}
+

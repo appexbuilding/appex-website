@@ -1,0 +1,59 @@
+/* ==========================================================================
+   GLOBAL COLOURS
+========================================================================== */
+$global-color: #666;
+$global-emphasis-color: #333;
+$global-muted-color: #999;
+
+$global-link-color: $brand-primary;
+$global-link-hover-color: $brand-primary-darker;
+
+$global-muted-background: $grey-lightest;
+$global-primary-background: $brand-primary;
+$global-secondary-background: $brand-secondary;
+
+$global-black: $black;
+$global-white: $white;
+
+$base-hr-border: $grey-lighter;
+
+$form-label-color: $grey-light;
+
+/* ==========================================================================
+   GLOBAL SIZING
+========================================================================== */
+
+// $container-max-width: 1300px;
+
+/* ==========================================================================
+   GLOBAL TYPOGRAPHY
+========================================================================== */
+$global-font-size: 18px;
+$global-font-family: Oxygen, sans-serif;
+$global-large-font-size: 22px;
+
+// $global-xlarge-font-size: 42px;
+// $global-large-font-size: 28px;
+
+$base-h2-line-height: 1.2;
+$base-h3-line-height: 1.2;
+
+/* ==========================================================================
+   GLOBAL MISC
+========================================================================== */
+
+// $global-control-large-height: 70px;
+// $global-control-height: 48px;
+$base-hr-border-width: 2px;
+
+/* ==========================================================================
+   GLOBAL PADDING
+========================================================================== */
+
+$global-padding: 80px;
+$global-padding-mobile: 40px;
+$global-padding-medium: 60px;
+$global-padding-medium-mobile: 30px;
+$global-padding-minimal: 20px;
+$global-padding-minimal-mobile: 10px;
+$global-medium-gutter: 20px;

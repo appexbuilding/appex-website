@@ -1,0 +1,11 @@
+// Oxygen Light
+@include font-face("Oxygen", "/fonts/Oxygen-Light", 200, normal, ttf);
+
+// Roboto Light Italic
+@include font-face("Oxygen", "/fonts/Roboto-LightItalic", 200, italic, ttf);
+
+// Oxygen Regular
+@include font-face("Oxygen", "/fonts/Oxygen-Regular", 500, normal, ttf);
+
+// Oxygen Bold
+@include font-face("Oxygen", "/fonts/Oxygen-Bold", 900, bold, ttf);

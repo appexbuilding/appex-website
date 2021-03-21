@@ -1,0 +1,35 @@
+<div data-id="C17" class="uk-container uk-container-xsmall C17-image-gallery">
+    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: push">
+
+        <ul class="uk-slideshow-items" uk-lightbox>
+            {{ range $index, $element := .Module.gallery }}
+            <li>
+                <div class="uk-position-cover uk-animation-kenburns uk-animation-reverse uk-transform-origin-center-left">
+                    <a href="{{ $element.gallery_image }}" data-caption="Gallery Image {{$index}}" uk-cover>
+                        <img src="{{ $element.gallery_image }}" alt="Gallery Image {{$index}}">
+                    </a>
+                </div>
+            </li>
+            {{end}}
+        </ul>
+
+        <a class="uk-position-center-left uk-position-small" href="#" uk-slidenav-previous uk-slideshow-item="previous"></a>
+        <a class="uk-position-center-right uk-position-small" href="#" uk-slidenav-next uk-slideshow-item="next"></a>
+
+<!--        <div uk-grid>-->
+<!--            <div class="uk-width-auto"></div>-->
+<!--            <div class="uk-width-expand"></div>-->
+<!--        </div>-->
+        <div style="padding-top: 10px">
+            <ul class="C17-image-gallery__thumbs uk-thumbnav" uk-grid>
+                {{ range $index, $element := .Module.gallery }}
+                <li uk-slideshow-item="{{$index}}" class="uk-width-auto">
+                    <a href="#" uk-slideshow-item="{{$index}}">
+                        <img src="{{ $element.gallery_image }}" width="60">
+                    </a>
+                </li>
+                {{end}}
+            </ul>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist/",
+    "sourceMap": true,
+    "strict": true,
+    "noImplicitReturns": true,
+    "noImplicitAny": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "target": "es5",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "baseUrl": ".",
+    "paths": {
+      "@scripts/*": ["src/scripts/*"],
+    },
+    "typeRoots": ["./node_modules/@types", "./src/scripts/types"]
+  },
+  "include": [
+    "./src/**/*",
+    "./site/**/*"
+  ],
+}

@@ -1,0 +1,25 @@
+.appex {
+  &-landing {
+    width: 100%;
+
+    &__logo {
+      width: 200px;
+      margin: 0 auto;
+    }
+  }
+
+  &-projects {
+    .uk-card {
+      .uk-card-media-top {
+        max-height: 350px;
+        overflow: hidden;
+      }
+    }
+  }
+
+  &__project-intro {
+    .uk-grid>* {
+      padding-left: 0;
+    }
+  }
+}

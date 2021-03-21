@@ -1,0 +1,3 @@
+# Netlify CMS config is now in src/scripts/cms.js
+
+# Module field definitions are in site/layouts/partials/modules/<Module Name>/fields.js

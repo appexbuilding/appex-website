@@ -1,0 +1,15 @@
+<div class="uk-padding-small" >
+	<a href="{{ .RelPermalink }}" class="uk-card uk-card-white uk-card-hover uk-card-box-shadow">
+		<div class="uk-card-media-top">
+			{{if $.Params.Image }}
+			<img src="{{ $.Params.Image }}" alt="image for {{ .Title }}">
+			{{else}}
+			<img src="/img/placeholder-noimage.gif" alt="image for {{ .Title }}" />
+			{{end}}
+		</div>
+		<div class="uk-card-body uk-icon-adjust">
+			<h4 class="uk-text-bold">{{ .Description }}</h4>
+			<button class="uk-button uk-button-minimal"><span uk-icon="minus"></span> VIEW PROJECT</button>
+		</div>
+	</a>
+</div>
