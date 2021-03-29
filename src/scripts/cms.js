@@ -20,6 +20,7 @@ init({
     load_config_file: false,
     media_folder: "site/static/img",
     public_folder: "img",
+    publish_mode: "editorial_workflow",
     collections: [
       {
         name: "pages",
