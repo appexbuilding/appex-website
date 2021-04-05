@@ -22,4 +22,18 @@
       padding-left: 0;
     }
   }
+
+  &-404 {
+    &__inner {
+      padding: 100px 0 0;
+
+      @media (max-width: $breakpoint-small) {
+        padding-top: 150px;
+      }
+
+      @media (max-width: $breakpoint-large) {
+        padding-top: 150px;
+      }
+    }
+  }
 }

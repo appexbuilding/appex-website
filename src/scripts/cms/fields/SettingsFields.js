@@ -88,7 +88,7 @@ export default [
         label: "Article Settings",
         name: "article",
         widget: "list",
-        allow_add: false,
+        allow_add: true,
         fields: [
           {
             label: "Title", name: "article_title", widget: "string", required: false,
