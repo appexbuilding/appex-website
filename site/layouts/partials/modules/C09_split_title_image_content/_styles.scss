@@ -17,8 +17,10 @@
     &.project {
       background-color: $brand-primary;
       color: $global-white;
-      padding: 5px;
+      padding: 0 10px;
       font-weight: bold;
+      border-radius: 20px;
+      line-height: 1.5;
     }
   }
 }
