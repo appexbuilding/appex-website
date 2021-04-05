@@ -7,19 +7,35 @@
         <div class="uk-width-1-1">
             <div class="uk-container uk-container-small">
                 {{ range $index, $element := .Module.content_card }}
-                <div class="uk-card uk-card-default uk-card-hover uk-child-width-1-2@s uk-margin" uk-grid>
-                    <div class="uk-card-media-left uk-cover-container">
-                        <img src="{{ $element.content_card_image}}" alt="Image for {{ $element.content_card_title}}" uk-cover>
-                        <canvas width="450" height="300"></canvas>
-                    </div>
-                    <div class="uk-background-muted">
-                        <div class="uk-card-body">
-                            <p class="uk-text-lead C12-pillar-content-cards__lead">{{ $element.content_card_title }}</p>
-                            <p>{{- $element.content_card_description | markdownify -}}</p>
-                            <a href="{{ $element.content_card_link}}" class="C12-pillar-content-cards__link">{{ $element.content_card_cta }}</a>
+                    {{if $element.content_card_link }}
+                    <a class="uk-card uk-card-default uk-card-hover uk-child-width-1-2@s uk-margin" uk-grid>
+                        <div class="uk-card-media-left uk-cover-container">
+                            <img src="{{ $element.content_card_image}}" alt="Image for {{ $element.content_card_title}}" uk-cover>
+                            <canvas width="450" height="300"></canvas>
+                        </div>
+                        <div class="uk-background-muted">
+                            <div class="uk-card-body">
+                                <p class="uk-text-lead C12-pillar-content-cards__lead">{{ $element.content_card_title }}</p>
+                                <p>{{- $element.content_card_description | markdownify -}}</p>
+                                <span class="C12-pillar-content-cards__link">{{ $element.content_card_cta }}</span>
+                            </div>
+                        </div>
+                    </a>
+                    {{else}}
+                    <div class="uk-card uk-card-default uk-card-hover uk-child-width-1-2@s uk-margin" uk-grid>
+                        <div class="uk-card-media-left uk-cover-container">
+                            <img src="{{ $element.content_card_image}}" alt="Image for {{ $element.content_card_title}}" uk-cover>
+                            <canvas width="450" height="300"></canvas>
+                        </div>
+                        <div class="uk-background-muted">
+                            <div class="uk-card-body">
+                                <p class="uk-text-lead C12-pillar-content-cards__lead">{{ $element.content_card_title }}</p>
+                                <p>{{- $element.content_card_description | markdownify -}}</p>
+                                <span class="C12-pillar-content-cards__link">{{ $element.content_card_cta }}</span>
+                            </div>
                         </div>
                     </div>
-                </div>
+                    {{end}}
                 {{end}}
             </div>
         </div>

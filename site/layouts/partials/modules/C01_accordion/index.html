@@ -10,11 +10,7 @@
         </div>
         <ul uk-accordion="multiple: {{.Module.allowMultiple}}" >
             {{ range $index, $element := .Module.dropdowns }}
-            {{if le $index 0}}
-            <li class="uk-open">
-            {{ else }}
             <li>
-            {{ end}}
                 <a class="uk-accordion-title" href="#">{{ $element.title }}</a>
                 <div class="uk-accordion-content">
                     <p>{{ $element.content }} </p>

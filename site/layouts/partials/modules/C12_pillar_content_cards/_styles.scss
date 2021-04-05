@@ -5,6 +5,14 @@
   // custom styling below
   .uk-card {
     border: 1px solid $grey-lighter;
+
+    p {
+      margin: 0;
+    }
+
+    &:hover {
+      text-decoration: none;
+    }
   }
 
   &__link {
