@@ -99,7 +99,7 @@ modules:
     youtube: rwSGQmY31EQ
   - type: C04_image
     image: https://via.placeholder.com/960x640
-    image_link: /
+    image_link: ""
   - type: C05_show_hide
     showhide_title: Show & Hide
     showhide_description: "**Optional** Lorem ipsum dolor sit amet, consectetur
