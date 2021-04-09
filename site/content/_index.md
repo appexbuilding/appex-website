@@ -38,7 +38,7 @@ modules:
       design, time, cost and quality aspects of any construction project. We
       have a large range of experts and subcontractors from which we’ve
       developed long term working relationships, which allows us to provide the
-      best solutions to our Clients. Apex Building Group is licensed to
+      best solutions to our Clients. Appex Building Group is licensed to
       construct all types of projects, and our experienced staff have the know
       how to get it done.
     feat_card:
