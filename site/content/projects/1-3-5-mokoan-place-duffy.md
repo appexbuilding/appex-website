@@ -25,7 +25,7 @@ modules:
     facebook: https://www.facebook.com/plugins/video.php?height=420&href=https%3A%2F%2Fwww.facebook.com%2Fpetermorrellcanberra%2Fvideos%2F338542794245940%2F&show_text=false&width=560
   - type: C20_feature_link
     feature_link: https://www.petermorrell.com.au/property/1-3-5-mokoan-place-duffy
-    feature_link_title: Peter Morrell Website
+    feature_link_title: Peter Morrell Real Estate
     feature_link_description: Please click here for full details.
 ---
 Each of these delightful free-standing, single-level townhomes brings elegance and easy living to sought-after Duffy, which offers all of the amenities an established suburb provides.
