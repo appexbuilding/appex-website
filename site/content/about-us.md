@@ -30,5 +30,10 @@ modules:
         content: Our ever growing list of projects are displayed on our website and
           social media sites however we'd be happy to provide more detail on our
           works. Contact us to find out more
+      - title: What kind of project management services do you offer
+        content: Our services vary in scope and budget subject to the requirements of
+          our Clients. We have a broad range of experience in commercial and
+          residential project management and extent these services to jobs of
+          all sizes.
     accordion_title: Frequently Asked Questions
 ---
