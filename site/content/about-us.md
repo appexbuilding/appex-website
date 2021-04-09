@@ -20,11 +20,15 @@ modules:
     allowMultiple: false
     dropdowns:
       - title: Do you build custom homes?
-        content: Yes, we have our own personal architects who help our clients with
-          designing there dream home while keeping the cost at budget.
+        content: Yes, Appex Building specialises in designer homes for all budgets. Our
+          expert design team has a passion of creativity that guarantees a
+          unique end product.
       - title: Where are you located?
-        content: Our office is located in Forde, next door to Frankies.
-      - title: Do you service the greater Canberra region
-        content: Yes
+        content: While our head office is in Forde ACT, our services extend to the
+          greater Canberra region and it's surrounds.
+      - title: How can I see some of your work?
+        content: Our ever growing list of projects are displayed on our website and
+          social media sites however we'd be happy to provide more detail on our
+          works. Contact us to find out more
     accordion_title: Frequently Asked Questions
 ---
