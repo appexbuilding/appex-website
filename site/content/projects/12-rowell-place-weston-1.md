@@ -3,7 +3,7 @@ title: 12 Rowell Place WESTON
 meta_keywords: APPEX Builders, Canberra Builders, Master Builders.
 meta_description: This is a detailed description of the page.
 banner_title: 12 Rowell Place WESTON
-banner_description: Project located in Weston.
+banner_description: A beautiful renovation in Weston Creek
 banner_right_image: img/weston-kitchen.jpg
 date: 2021-03-08T05:21:43.408Z
 description: This is your intro blurb. Describe at high level what this project
