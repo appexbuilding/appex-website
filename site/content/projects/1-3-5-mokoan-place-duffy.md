@@ -44,16 +44,16 @@ These homes all have those “must have” features, such as double garages with
 
 If you are looking for a low-maintenance new build, these freestanding, private townhomes are worth a look.
 
-\* Four bedrooms, mains with ensuites and walk-in robes\
+* Four bedrooms, mains with ensuites and walk-in robes
 
-* Bathrooms with ceiling high tiles, luxury design\
-* Open plan living and dining\
-* Close to primary schools, shops and transport\
-* Single level and spacious\
-* Complex of only 3 townhomes\
-* Double glazing throughout\
-* Ducted heating and cooling\
-* All with an EER 7 or over\
+* Bathrooms with ceiling high tiles, luxury design
+* Open plan living and dining
+* Close to primary schools, shops and transport
+* Single level and spacious
+* Complex of only 3 townhomes
+* Double glazing throughout
+* Ducted heating and cooling
+* All with an EER 7 or over
 * Unit 3 has room for a pool
 
 To find out more, please visit <https://www.petermorrell.com.au/property/1-3-5-mokoan-place-duffy>
