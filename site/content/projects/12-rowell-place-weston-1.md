@@ -6,8 +6,7 @@ banner_title: 12 Rowell Place WESTON
 banner_description: A beautiful renovation in Weston Creek
 banner_right_image: img/weston-kitchen.jpg
 date: 2021-03-08T05:21:43.408Z
-description: This is your intro blurb. Describe at high level what this project
-  is about here.
+description: A beautiful existing home renovation in Weston Creek
 project_type: Renovation
 image: img/weston-kitchen.jpg
 modules:
@@ -27,4 +26,6 @@ modules:
       - gallery_image: img/weston-living.jpg
       - gallery_image: img/weston-front.jpg
 ---
-This is my body text, it's optional, but you can continue talking about the project here a little more if you want.
+This project includes freshly renovated bathrooms and kitchen, featuring an updated design and a touch of modern class. 
+
+Featured on a generous block, this renovation has dramatically improved the desirability and relevance of the land helping it's owner to appreciate the true benefit of our works.
