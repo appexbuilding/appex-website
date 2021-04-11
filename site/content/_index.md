@@ -11,7 +11,9 @@ modules:
   - type: C09_split_title_image_content
     title: Who we are
     leadtext: Appex Building Group was founded on the belief that we can provide a
-      first class product and service that doesn’t cost the earth.
+      first class product and service that doesn’t cost the earth. Our team
+      combines experiences in design, building and project management to be able
+      to add value to our projects.
     content: We believe in finding efficiencies in all aspects of our work to ensure
       a high level of Customer satisfaction. The team at Appex Building have
       come from humble beginnings and we value honesty and integrity above all
