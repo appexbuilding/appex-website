@@ -6,9 +6,7 @@ banner_title: 39 Buvelot Street Weston 2611
 banner_description: A stunning Management job in Weston
 banner_right_image: img/39buvelot__weston-front.jpg
 date: 2021-04-05T00:46:03.294Z
-description: "This project was managed on behalf of one of our regular Clients.
-  The house was renovated to include new open plan living and dining, allowing
-  for more light to enter the central areas of the home. "
+description: "This project was managed on behalf of one of our regular Clients. "
 project_type: Project Management
 image: img/39buvelot__weston-front.jpg
 modules:
@@ -26,6 +24,8 @@ modules:
       - gallery_image: img/39buvelot__weston-side.jpg
       - gallery_image: img/39buvelot__weston-courtyard.jpg
 ---
+The house was renovated to include new open plan living and dining, allowing for more light to enter the central areas of the home. 
+
 39 Buvelot Street features modern kitchen and bathroom upgrades, using the latest fixtures and fittings. It's unique metal cladding exterior adds a touch of class to the build and allows it to stand out from the rest.
 
 The project took place over XXXX weeks while Appex Building managed the works while the house was occupied. Appex successfully staged the project so there was minimal disruption. 
