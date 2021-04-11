@@ -6,7 +6,7 @@ banner_title: 39 Buvelot Street Weston 2611
 banner_description: A stunning Management job in Weston
 banner_right_image: img/39buvelot__weston-front.jpg
 date: 2021-04-05T00:46:03.294Z
-description: "This project was managed on behalf of one of our regular Clients. "
+description: This project was managed on behalf of one of our regular Clients.
 project_type: Project Management
 image: img/39buvelot__weston-front.jpg
 modules:
