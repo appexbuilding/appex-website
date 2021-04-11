@@ -66,6 +66,6 @@ modules:
         feat_card_cta: FIND OUT MORE
       - feat_card_image: img/commercial.jpg
         feat_card_description: Developments
-        feat_card_link: /contact
+        feat_card_link: /5 Mokoan Place Duffy
         feat_card_cta: FIND OUT MORE
 ---
