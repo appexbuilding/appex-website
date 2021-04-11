@@ -54,7 +54,7 @@ modules:
         feat_card_cta: FIND OUT MORE
       - feat_card_image: img/pexels-photo-1109541.jpeg
         feat_card_description: Project Management
-        feat_card_link: /contact
+        feat_card_link: /39 Buvelot Street Weston 2611
         feat_card_cta: FIND OUT MORE
       - feat_card_description: Commercial / Fit outs
         feat_card_image: img/fit-out.jpg
