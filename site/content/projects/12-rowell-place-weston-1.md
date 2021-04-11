@@ -29,3 +29,7 @@ modules:
 This project includes freshly renovated bathrooms and kitchen, featuring an updated design and a touch of modern class. 
 
 Featured on a generous block, this renovation has dramatically improved the desirability and relevance of the land helping it's owner to appreciate the true benefit of our works.
+
+This project was completed in XXXX weeks and featured X, X and X.
+
+Appex Building is pleased to deliver another successful project for our Clients while demonstrating X and X
