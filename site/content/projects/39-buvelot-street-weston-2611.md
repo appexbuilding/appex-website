@@ -26,6 +26,6 @@ modules:
       - gallery_image: img/39buvelot__weston-side.jpg
       - gallery_image: img/39buvelot__weston-courtyard.jpg
 ---
-
-
 39 Buvelot Street features modern kitchen and bathroom upgrades, using the latest fixtures and fittings. It's unique metal cladding exterior adds a touch of class to the build and allows it to stand out from the rest.
+
+The project took place over XXXX weeks while Appex Building managed works in
