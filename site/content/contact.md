@@ -3,7 +3,8 @@ title: Contact
 meta_keywords: Contact, APPEX Builders, Canberra Builders, Master Builders.
 meta_description: This is a detailed description of the page.
 banner_title: Contact Us
-banner_description: Please contact one of our friendly staff to talk all things homes.
+banner_description: Please contact one of our friendly staff to talk all things
+  Building and Construction
 banner_image: img/contact-background.jpg
 modules:
   - type: C07_form
