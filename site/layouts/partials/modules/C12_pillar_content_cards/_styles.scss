@@ -5,6 +5,7 @@
   // custom styling below
   .uk-card {
     border: 1px solid $grey-lighter;
+    margin: 0 auto;
 
     p {
       margin: 0;
@@ -12,6 +13,10 @@
 
     &:hover {
       text-decoration: none;
+    }
+
+    .uk-background-muted {
+      margin-top: 0;
     }
   }
 

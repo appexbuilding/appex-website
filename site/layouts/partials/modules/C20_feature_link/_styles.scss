@@ -1,3 +1,15 @@
 .C20-feature-link {
- // styles
+ .uk-card {
+   margin: 0;
+
+   &-body {
+     h4 {
+       margin-bottom: 0;
+     }
+
+     p {
+       margin-top: 0;
+     }
+   }
+ }
 }
