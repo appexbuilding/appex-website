@@ -234,4 +234,6 @@ modules:
     feature_link: https://www.google.com.au/
     feature_link_title: This is your feature
     feature_link_description: This is your description
+  - type: C21_facebook
+    facebook: https://www.facebook.com/plugins/video.php?height=420&href=https%3A%2F%2Fwww.facebook.com%2Fpetermorrellcanberra%2Fvideos%2F338542794245940%2F&show_text=false&width=560
 ---
