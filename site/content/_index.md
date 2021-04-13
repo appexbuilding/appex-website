@@ -50,7 +50,7 @@ modules:
         feat_card_cta: FIND OUT MORE
       - feat_card_image: img/renovations.jpg
         feat_card_description: Renovations / Extensions
-        feat_card_link: /12 Rowell Place WESTON
+        feat_card_link: /projects/12-rowell-place-weston-1/
         feat_card_cta: FIND OUT MORE
       - feat_card_image: img/pexels-photo-1109541.jpeg
         feat_card_description: Project Management
