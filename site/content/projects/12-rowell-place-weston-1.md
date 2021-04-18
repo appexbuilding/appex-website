@@ -26,10 +26,6 @@ modules:
       - gallery_image: img/weston-living.jpg
       - gallery_image: img/weston-front.jpg
 ---
-This project includes freshly renovated bathrooms and kitchen, featuring an updated design and a touch of modern class. 
-
-Featured on a generous block, this renovation has dramatically improved the desirability and relevance of the land helping it's owner to appreciate the true benefit of our works.
-
-This project was completed in XXXX weeks and featured X, X and X.
-
-Appex Building is pleased to deliver another successful project for our Clients while demonstrating X and X
+We have successfully coordinated the complete renovation of the interior and exterior of this home, previously in original condition, to present as new, with elegant, contemporary finishes. 
+Importantly, this was managed with the aim of minimising inconvenience to the residents, who were able to remain in the home for the duration of the project.  
+Important elements of our work involved creating a modern layout with updated design, and the coordination of bathrooms and kitchen renovations to an exceptional standard. Other notable features include the beautiful hardwood flooring and window treatments.
