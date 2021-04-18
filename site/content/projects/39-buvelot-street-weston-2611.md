@@ -24,10 +24,7 @@ modules:
       - gallery_image: img/39buvelot__weston-side.jpg
       - gallery_image: img/39buvelot__weston-courtyard.jpg
 ---
-The house was renovated to include new open plan living and dining, allowing for more light to enter the central areas of the home. 
+Appex Building provided the project management for this brand new build, on an elevated site. 
+Our expertise delivered the finished project, in managing design, time frames, cost and coordinating trades, the completion of an impressive new home, showcasing the highest quality finishes.
+Some of the outstanding features are the striking contemporary façade, with the use of Colorbond cladding, free flowing open plan living areas, and high end finishes in kitchen and bathrooms. 
 
-39 Buvelot Street features modern kitchen and bathroom upgrades, using the latest fixtures and fittings. It's unique metal cladding exterior adds a touch of class to the build and allows it to stand out from the rest.
-
-The project took place over XXXX weeks while Appex Building managed the works while the house was occupied. Appex successfully staged the project so there was minimal disruption. 
-
-The project displayed our ability to work within tight constraints to deliver a a unique project
