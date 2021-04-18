@@ -33,20 +33,20 @@ modules:
     image: img/our-vision.jpg
     title1: Our vision & mission
     content1: >-
-      We believe in: 
+      **We believe in:** 
 
 
-      * Quality - In all our workmanship and in sourcing the highest quality materials
+      * **Quality** - *In all our workmanship and in sourcing the highest quality materials.*
 
-      * Efficiency - Working in the most efficient way and share the benefits
+      * **Efficiency** - *Working in the most efficient way and share the benefits.*
 
-      * Integrity - In all of our dealings
+      * **Integrity** - *In all of our dealings.*
 
-      * Communication - Attentiveness to your requests and prompt, open communication
+      * **Communication** - *Attentiveness to your requests and prompt, open communication.*
 
-      * Trust - Ensuring your peace of mind and satisfaction with the finished product	
+      * **Trust** - *Ensuring your peace of mind and satisfaction with the finished product.*	
 
-      * Knowledge - Maintaining high standards of achievement in training and competence
+      * **Knowledge** - *Maintaining high standards of achievement in training and competence.*
     title2: ""
     content2: ""
   - type: C19_feature_cards
