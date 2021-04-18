@@ -33,7 +33,7 @@ modules:
     image: img/our-vision.jpg
     title1: Our vision & mission
     content1: >-
-      We believe in: 
+      **We believe in:** 
 
 
       * **Quality** - *In all our workmanship and in sourcing the highest quality materials.*
