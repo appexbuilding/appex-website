@@ -8,7 +8,11 @@ banner_image: img/contact-background.jpg
 modules:
   - type: C08_quote
     quote_text: '"Top quality and honest builders who helped us build our dream home."'
-    quote_author: Bob Smith
+    quote_author: Trystan Warn
+  - type: C08_quote
+    quote_text: '"The guys at Appex Building Group were great to deal with, they
+      really helped us through the building process"'
+    quote_author: Shirley Li
 date: 2021-03-08T02:42:37.606Z
 image: img/canberra.jpg
 description: This is our intro blurb
