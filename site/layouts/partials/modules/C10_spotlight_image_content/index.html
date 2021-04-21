@@ -4,22 +4,24 @@
             <div>
                 <img src="{{ .Module.image }}" alt="image for {{ .Module.title1 }} and {{ .Module.title2 }}">
             </div>
-            <div>
-                <svg class="C04-spotlight-image-content__svg" width="100%" height="2" viewBox="0 0 442 2" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <line x1="1" y1="1" x2="42" y2="1" stroke="#F59C00" stroke-width="2" stroke-linecap="round"></line>
-                </svg>
-                {{if .Module.title1}}
-                    <h3>{{ .Module.title1 }}</h3>
-                    {{- .Module.content1 | markdownify -}}
-                    {{if .Module.title2}}
-                        <hr>
+            <div uk-scrollspy="cls: uk-animation-slide-right; target: div; delay: 300; repeat: false">
+                <div>
+                    <svg class="C10-spotlight-image-content__svg" width="100%" height="2" viewBox="0 0 442 2" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <line x1="1" y1="1" x2="42" y2="1" stroke="#F59C00" stroke-width="2" stroke-linecap="round"></line>
+                    </svg>
+                    {{if .Module.title1}}
+                        <h3>{{ .Module.title1 }}</h3>
+                        {{- .Module.content1 | markdownify -}}
+                        {{if .Module.title2}}
+                            <hr>
+                        {{end}}
                     {{end}}
-                {{end}}
 
-                {{if .Module.title2}}
-                    <h3>{{ .Module.title2 }}</h3>
-                    {{- .Module.content2 | markdownify -}}
-                {{end}}
+                    {{if .Module.title2}}
+                        <h3>{{ .Module.title2 }}</h3>
+                        {{- .Module.content2 | markdownify -}}
+                    {{end}}
+                </div>
             </div>
         </div>
     </div>

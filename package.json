@@ -113,7 +113,7 @@
     "react-fast-compare": "^3.2.0",
     "ts-loader": "^8.0.18",
     "typescript": "^4.1.4",
-    "uikit": "^3.6.18",
+    "uikit": "^3.6.19",
     "offline-plugin": "^5.0.7"
   },
   "resolutions": {
