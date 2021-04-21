@@ -4,7 +4,7 @@
             <div>
                 <img src="{{ .Module.image }}" alt="image for {{ .Module.title1 }} and {{ .Module.title2 }}">
             </div>
-            <div uk-scrollspy="cls: uk-animation-slide-right; target: div; delay: 300; repeat: false">
+            <div uk-scrollspy="cls: uk-animation-slide-right; target: div; delay: 300; repeat: true">
                 <div>
                     {{if .Module.title1}}
                         <h3>{{ .Module.title1 }}</h3>
