@@ -7,6 +7,7 @@ import '../site/layouts/partials/modules/C01_accordion/index';
 import '../site/layouts/partials/modules/C05_show_hide';
 import '../site/layouts/partials/modules/C07_form';
 import '../site/layouts/partials/modules/C11_statistics/index';
+import '../site/layouts/partials/modules/C17_image_gallery/index';
 
 require('offline-plugin/runtime').install();
 
@@ -18,7 +19,6 @@ require('offline-plugin/runtime').install();
 // import "../site/layouts/partials/modules/C14_youtube_with_quote/index";
 // import "../site/layouts/partials/modules/C15_split_title_content_background/index";
 // import "../site/layouts/partials/modules/C16_our_board/index";
-// import "../site/layouts/partials/modules/C17_image_gallery/index";
 // import "../site/layouts/partials/modules/C18_pdf_downloads/index";
 // import "../site/layouts/partials/modules/C19_feature_cards/index";
 // import "../site/layouts/partials/modules/C20_filter/index";
