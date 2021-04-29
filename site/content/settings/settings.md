@@ -20,13 +20,6 @@ footer:
         seo_og_description: Your first class product and service that doesn’t cost the earth.
     footer_ga: G-YF988THVVW
     footer_phone_number: 1300 4 APPEX
-seo:
-  - seo_og_image: img/banner-image.jpg
-    seo_og_url: https://appexbuilding.com.au/
-    seo_og_type: website
-    seo_og_twitter: appexbuilding
-    seo_og_sitename: Appex Building
-    seo_og_description: Appex description goes here.
 article:
   - article_title: Want to know more?
     article_description: Get in touch with our team.
