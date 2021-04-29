@@ -62,7 +62,7 @@ export default [
         label: "SEO Settings",
         name: "seo",
         widget: "list",
-        allow_add: false,
+        allow_add: true,
         fields: [
           {
             label: "OG Site Name", name: "seo_og_sitename", widget: "string", required: false,
