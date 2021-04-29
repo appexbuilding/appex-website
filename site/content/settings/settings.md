@@ -14,7 +14,7 @@ footer:
       - footer_global_link_text: "Phone: 1300 4 APPEX"
     seo:
       - seo_og_sitename: Appex Building
-        seo_og_image: img/our-vision.jpg
+        seo_og_image: img/og-image.gif
         seo_og_url: https://www.appexbuilding.com.au/
         seo_og_type: Website
         seo_og_description: Your first class product and service that doesn’t cost the earth.
