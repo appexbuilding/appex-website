@@ -1,6 +1,8 @@
 ---
 title: Projects
-meta_keywords: Projects, Canberra Projects, APPEX Builders, Canberra Builders.
+meta_keywords: "Projects, APPEX Builders, Building, Construction, fit out,
+  Commercial, Canberra Builders, Custom homes, Project Management, Renovations,
+  house and land package, Canberra, Appex Building Group, Master Builders "
 meta_description: Current and past project built by Appex Building Group
 banner_title: Projects
 banner_description: This is our current and past projects, all built through Appex Building Group.
