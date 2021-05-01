@@ -1,6 +1,7 @@
 ---
 title: Home
-meta_keywords: APPEX Builders, Canberra Builders, Custom homes, Project Management.
+meta_keywords: "APPEX Builders, Building, Construction, fit out, commercial,
+  Canberra Builders, Custom homes, Project Management, Renovations, "
 meta_description: This is a detailed description of the page.
 banner_title: Your first class product and service that doesn’t cost the earth.
 banner_image: img/home-banner.jpg
