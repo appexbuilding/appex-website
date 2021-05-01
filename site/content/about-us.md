@@ -1,6 +1,8 @@
 ---
 title: About us
-meta_keywords: APPEX Builders, Canberra Builders, Master Builders.
+meta_keywords: "APPEX Builders, Building, Construction, fit out, Commercial,
+  Canberra Builders, Custom homes, Project Management, Renovations, house and
+  land package, Canberra, Appex Building Group, Master Builders "
 meta_description: This is a detailed description of the page.
 banner_title: About Us
 banner_image: img/contact-background.jpg
