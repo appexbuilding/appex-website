@@ -22,7 +22,7 @@ modules:
       Owned and operated by Canberra locals, customer satisfaction is our main priority. From humble beginnings, we value and uphold honesty and integrity at all levels of our business. Our experienced team of professionals and subcontractors have long-established working relationships, enabling seamless collaboration on every project.
 
 
-      Appex Building Group have the expertise to manage design, time, cost and quality aspects of any construction project. No job is too big or too small for us. Contact us today, to find out how we can bring your vision to reality.
+      Appex Building Group have the expertise to manage design, time, cost and quality aspects of any construction project. No job is too big or too small for us. Contact us today to find out how we can bring your vision to reality.
   - type: C10_spotlight_image_content
     image: img/our-vision.jpg
     title1: Our vision & mission
