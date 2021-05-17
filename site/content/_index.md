@@ -4,7 +4,7 @@ meta_keywords: "Home, APPEX Builders, Building, Construction, fit out,
   Commercial, Canberra Builders, Custom homes, Project Management, Renovations,
   house and land package, Canberra, Appex Building Group   "
 meta_description: This is a detailed description of the page.
-banner_title: Your first class product and service that doesn’t cost the earth.
+banner_title: Your first class product and service that doesn’t cost the earth
 banner_image: img/home-banner.jpg
 banner_video: /img/video-home.mp4
 banner_cta_link: /contact
