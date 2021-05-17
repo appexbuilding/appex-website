@@ -4,7 +4,7 @@ meta_keywords: "Home, APPEX Builders, Building, Construction, fit out,
   Commercial, Canberra Builders, Custom homes, Project Management, Renovations,
   house and land package, Canberra, Appex Building Group   "
 meta_description: This is a detailed description of the page.
-banner_title: Your first class product and service that doesn’t cost the earth
+banner_title: Your first class product and service that doesn’t cost the earth.
 banner_image: img/home-banner.jpg
 banner_video: /img/video-home.mp4
 banner_cta_link: /contact
@@ -14,23 +14,15 @@ modules:
     title: Who we are
     leadtext: "Appex Building Group was founded on the belief that we can provide a
       first-class product and service that doesn’t cost the earth. "
-    content: "We are committed to finding efficiencies in all aspects of our work to
-      ensure a high-quality finish at a competitive price.\r
+    content: >-
+      We are committed to finding efficiencies in all aspects of our work to
+      ensure a high-quality finish at a competitive price.
 
-      \r
 
-      Owned and operated by Canberra locals, customer satisfaction is our
-      main priority. From humble beginnings, we value and uphold honesty and
-      integrity at all levels of our business. Our experienced team of
-      professionals and subcontractors have long-established working
-      relationships, enabling seamless collaboration on every project.\r
+      Owned and operated by Canberra locals, customer satisfaction is our main priority. From humble beginnings, we value and uphold honesty and integrity at all levels of our business. Our experienced team of professionals and subcontractors have long-established working relationships, enabling seamless collaboration on every project.
 
-      \r
 
-      Appex Building Group have the expertise to manage design, time, cost
-      and quality aspects of any construction project. No job is too big or too
-      small for us. Contact us today to find out how we can bring your vision to
-      reality.\r\n"
+      Appex Building Group have the expertise to manage design, time, cost and quality aspects of any construction project. No job is too big or too small for us. Contact us today, to find out how we can bring your vision to reality.
   - type: C10_spotlight_image_content
     image: img/our-vision.jpg
     title1: Our vision & mission
