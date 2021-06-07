@@ -3,7 +3,10 @@
 {{ partial "header" . }}
 
 <body class="sans-serif {{ if or (.IsHome) (.Params.banner_full_height) }}{{else}}{{if .Params.imageUrl}}{{else}}uk-navbar-white{{end}}{{end}}">
-
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-MWJHPMZ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  
   {{ block "head" . }}
   <header data-id="G01" class="G01-header-main">
     <div class="uk-container">
